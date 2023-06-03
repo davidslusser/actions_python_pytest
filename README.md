@@ -42,9 +42,13 @@ jobs:
 
 ## Inputs
   - **src:** source directory of code to check (defaults to "`.`")
-  - **options:** optional flags/parameters used in pytest command
+  - **options:** optional flags/parameters used in pytest command (defaults to "`-v`")
   - **pip_install_command:** pip install command (defaults to "`pip install pytest`")
    - **python_version:** version of python to run workflow with (defaults to "`3.x`")
 
 
 <br/>
+
+## References
+ - https://docs.pytest.org/en/7.3.x/
+ - https://pypi.org/project/pytest/
